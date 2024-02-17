@@ -79,10 +79,10 @@ Then save and exit the file in nano editor.
 ```
 $ sudo nano /etc/default/geoserver/
 ```
-![Desktop View]({{ "/blog/assets/img/linux/geoserver_xjkv.png" | relative_url }})
+![Desktop View]({{ "../assets/img/linux/geoserver_xjkv.png" | relative_url }})
 Paste the above text from the [Geoserver Linux Init Script page](https://docs.geoserver.org/latest/en/user/production/linuxscript.html) and save the file.
 Note: Change USER, GEOSERVER_DATA_DIR, GEOSERVER_HOME and JAVA_HOME path as following:
-![Desktop View]({{ "/blog/assets/img/linux/geoserver_xjkv2.png" | relative_url }})
+![Desktop View]({{ "../assets/img/linux/geoserver_xjkv2.png" | relative_url }})
 JAVA_HOME part can be accessed with following command:
 ```
 $ cd /usr/lib/jvm/
