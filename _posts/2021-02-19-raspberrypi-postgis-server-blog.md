@@ -33,7 +33,7 @@ Enable SSH from Interfaces tab in Raspberry Pi Configuration. Use this command i
 $ ssh pi@192.168.1.102
 ```
 Enter password when asked and ‘yes’ to the prompt to establish the connection.
-![Desktop View]({{ "/assets/img/raspberry_pi_postgis_server/ssh_enable.jpg" | relative_url }})
+![Desktop View]({{ "../assets/img/raspberry_pi_postgis_server/ssh_enable.jpg" | relative_url }})
 
 ## 3. Setting Up a PostgreSQL Database On The Raspberry Pi Device
 
@@ -165,7 +165,7 @@ After making these changes we may want to restart the postgreSQL server. This co
 $ sudo systemctl restart postgresql
 ```
 If you have pgadmin installed on your host machine, we can try to make a connection to the remote postgreSQL server on the Raspberry Pi.
-![Desktop View]({{ "/assets/img/raspberry_pi_postgis_server/postgres_pgadmin_setup.png" | relative_url }})
+![Desktop View]({{ "../assets/img/raspberry_pi_postgis_server/postgres_pgadmin_setup.png" | relative_url }})
 
 In the pgAdmin4 interface, Right click and select create server. In the General tab, fill up the name for the database connection. Under Connection Tab, we’d like to add following details,
 
@@ -187,8 +187,8 @@ Before we visualize data from the database, there are several ways we can popula
 We have the simple graphical interface that makes our work a lot easier, or command line utility for advanced users.
 
 Establishing database connection is no different than above two methods we have done in qgis db connection and pgAdmin server connection management. Here is how the basic interface of **shp2pgsql-gui** looks like:
-![Desktop View]({{ "/assets/img/raspberry_pi_postgis_server/shp2pgsql_sample.png" | relative_url }})
+![Desktop View]({{ "../assets/img/raspberry_pi_postgis_server/shp2pgsql_sample.png" | relative_url }})
 
 After loading the shapefile, and connecting PostGIS database to QGIS, we can easily load the dataset from the database for different GIS applications in QGIS.
 
-![Desktop View]({{ "/assets/img/raspberry_pi_postgis_server/postgres_qgis_setup.png" | relative_url }})
+![Desktop View]({{ "../assets/img/raspberry_pi_postgis_server/postgres_qgis_setup.png" | relative_url }})

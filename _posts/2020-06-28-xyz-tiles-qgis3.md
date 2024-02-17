@@ -15,7 +15,7 @@ This goal can be achieved in QGIS either through plugin like QuickMapServices or
 QuickMapService plugin installation is very straightforward.
 
 GoTo: plugins | manage and install plugins...  and search for QuickMapServices plugin.
-![Desktop View]({{ "/assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/qmsPlugin.png" | relative_url }})
+![Desktop View]({{ "../assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/qmsPlugin.png" | relative_url }})
 
 After installing it, we're all set to go.
 
@@ -26,7 +26,7 @@ After installing it, we're all set to go.
 QGIS3 has a built in XYZ tiles support.
 GoTo: Layer | Add Layer | Add XYZ Layer
 
-![Desktop View]({{ "/assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/2020-06-29_13-20.png" | relative_url }})
+![Desktop View]({{ "../assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/2020-06-29_13-20.png" | relative_url }})
 
 Select New to make New XYZ Connection.
 In the connection details options enter the Name and URL of XYZ server.
@@ -108,4 +108,4 @@ iface.reloadConnections()
 ```
 
 
-![Desktop View]({{ "/assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/2020-06-29_13-36.png" | relative_url }})
+![Desktop View]({{ "../assets/img/gis/qgis/2020-06-29-xyz-tiles-qgis3/2020-06-29_13-36.png" | relative_url }})

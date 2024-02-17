@@ -71,7 +71,7 @@ Modern Workflow includes assisted mapping with AI. RapID from Facebook OSM Commu
 
 NOTE: JOSM requires to have Java Runtime Environment(JRE)
 
-![Desktop View]({{ "/assets/img/osm/josm_armchair.jpg" | relative_url }})
+![Desktop View]({{ "../assets/img/osm/josm_armchair.jpg" | relative_url }})
 
 1. Authorization of user thought preferences
 2. Download required plugin: One on my list is *building* plugin

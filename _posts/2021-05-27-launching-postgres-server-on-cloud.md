@@ -19,29 +19,29 @@ There are several advantages of hosting database on cloud. Some points to note a
 
 ## Server Creation
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/azure_services_dashboard.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/azure_services_dashboard.png" | relative_url }})
 After logging into the azure dashboard, we can easily navigate to 'Azure Database for PostgreSQL servers' and follow along as:
 
 1. Add
 2. Single Server
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/single_server.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/single_server.png" | relative_url }})
 
 After the process is complete, Azure Database for PostgreSQL servers is created.
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/azure_server_created.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/azure_server_created.png" | relative_url }})
 
 
 
 We can fill up all the requirements according to our needs and then create the server.
 After creation the dashboard is loaded as:
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/server_dashboard_capture.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/server_dashboard_capture.png" | relative_url }})
 
 
 From the setting Heading, we can select the connection strings and then use these connection strings according to our application needs. The connection string page is as:
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/connection_strings.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/connection_strings.png" | relative_url }})
 
 
 We might also want to modify the connection security parameters. In my case, I modified the firewall setting, to make the server accessible from the clients local machine IP address. This will prevent any unauthorized access to the server from unknown IPs not specified in the firewall rule.
@@ -49,7 +49,7 @@ We might also want to modify the connection security parameters. In my case, I m
 
 Now, Azure provides you with Cloud Shell, you can either select ‘bash’ or ‘powershell’. I am familiar with bash so that goes to my bucket. We can communicate to our database server using this cloud shell.
 
-![Desktop View]({{ "/assets/img/azure-postgresql-database/azure_cli.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/azure_cli.png" | relative_url }})
 
 
 Now, We can log in to the remote PostgreSQL Database Server on the cloud from our device terminal or from the pgAdmin4 interface. But in my case, I am working on spatial datasets and trying to establish database connection to the Database Engine in QGIS Desktop for analysis purposes.
@@ -96,7 +96,7 @@ This is what I did to get my file on the remote postgreSQL server.
 We're hosted by here!
 
 Now, we can easily import these dataset into our QGIS Application through DBManager in QGIS. This part is already explained in my previous [blog](https://hillsonghimire.github.io/blog/posts/raspberrypi-postgis-server-blog/)
-![Desktop View]({{ "/assets/img/azure-postgresql-database/connection_data_loading in qgis.png" | relative_url }})
+![Desktop View]({{ "../assets/img/azure-postgresql-database/connection_data_loading in qgis.png" | relative_url }})
 
 
 ## References
